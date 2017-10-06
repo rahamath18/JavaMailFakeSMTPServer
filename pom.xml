@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.test</groupId>
+	<artifactId>JavaMailFakeSMTPServer</artifactId>
+	<packaging>war</packaging>
+	<version>1.0</version>
+	<name>JavaMailFakeSMTPServer app</name>
+	<description>JavaMailFakeSMTPServer</description>
+	<url>http://localhost:8080/JavaMailFakeSMTPServer</url>
+
+	<organization>
+		<name>test</name>
+		<url>http://www.JavaMailFakeSMTPServer.com/company/</url>
+	</organization>
+
+	<properties>
+		<main.basedir>${basedir}/../../..</main.basedir>
+	</properties>
+
+	<dependencies>		 
+
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>javax.mail-api</artifactId>
+			<version>1.5.5</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+</project>
